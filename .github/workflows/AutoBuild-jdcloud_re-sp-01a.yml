@@ -24,21 +24,6 @@ on:
   ### 界面控制部分 ( 以下内容请保持不变, 如有需要仅修改 options 选项 )
   workflow_dispatch:
     inputs:
-      Tempoary_CONFIG:
-        description: '配置文件'
-        default: 'jdcloud_re-sp-01b'
-        type: choice
-        options:
-          - 'jdcloud_re-sp-01b'
-      Tempoary_FLAG:
-        description: '固件标签'
-        default: 'AUTO'
-        type: choice
-        options:
-          - 'AUTO'
-          - 'Full'
-          - 'Clash'
-          - 'Lite'
       Tempoary_IP:
         description: '固件 IP 地址 [可选]'
         default: ''
